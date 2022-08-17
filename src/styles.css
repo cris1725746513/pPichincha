@@ -1,1 +1,139 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-size: 14px !important;
+}
+
+label, .label {
+  font-weight: bold;
+}
+
+#mainContainer {
+  margin-top: 50px;
+}
+
+div.form-check > label {
+  font-weight: normal;
+}
+
+.navbar {
+  background-color: #3071a9 !important;
+  border-color: #3071a9 !important;
+  font-size: 14px !important;
+}
+
+.navbar-brand {
+  margin-left: 5px;
+  font-size: 18px !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar .dropdown-menu {
+  background-color: #3071a9 !important;
+}
+
+.navbar .dropdown-item {
+  color: white !important;
+  font-size: 14px !important;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #3071cc !important;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+.btn-nmed {
+  color: #eeeeee;
+  border-color: #3071a9;
+  background-color: #3071a9;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.btn-nmed[disabled] {
+  color: #eeeeee;
+}
+
+.btn-nmed:not([disabled]):hover {
+  color: #3071a9;
+  border-color: #3071a9;
+  background-color: transparent;
+}
+
+.btn-outline-nmed {
+  color: #3071a9;
+  border-color: #3071a9;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.btn-outline-nmed[disabled] {
+  color: #3071a9;
+}
+
+.btn-outline-nmed:not([disabled]):hover {
+  color: #eeeeee;
+  border-color: #3071a9;
+  background-color: #3071a9;
+}
+
+th[sortable] {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+
+th[sortable].desc:before {
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+}
+
+.form-error {
+  border: 1px solid darkred;
+}
+
+.form-control-error {
+  font-size: small;
+  color: darkred;
+}
+
+.green {
+  color: darkgreen;
+}
+
+.red {
+  color: darkred;
+}
+
+.blue {
+  color: #3071a9;
+}
+
+.simple-notification .sn-content {
+  font-size: 14px;
+  line-height: 20px;
+  word-break: break-all;
+}
+
+.chip {
+  margin: 5px;
+  padding: 5px;
+  float: left;
+  border-radius: 25px;
+  border: 1px solid #3071a9;
+}
+
+.pseudo-link {
+  cursor: pointer;
+}
+
+.pseudo-link.blue:hover {
+  color: red;
+}
